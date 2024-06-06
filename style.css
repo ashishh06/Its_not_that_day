@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #FF5733, #33FF57);
+}
+#text {
+    font-size: 2.5em;
+    transition: transform 1s ease;
+    margin-bottom: 20px;
+}
+#message {
+    margin-top: 10px;
+    font-size: 1.5em;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+#countdown {
+    margin-top: 10px;
+    font-size: 1.2em;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
